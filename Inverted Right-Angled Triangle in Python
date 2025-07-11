@@ -12,3 +12,10 @@ Enter the row size for the pattern: 5
 * * * 
 * * 
 * 
+
+Code Explanation:
+We take input for the number of rows to create a reverse star pattern.
+
+The outer loop starts from the given row size and decreases, while the inner loop prints stars equal to the row number.
+
+Using end=" " keeps stars on the same line, and print() moves to the next row.
